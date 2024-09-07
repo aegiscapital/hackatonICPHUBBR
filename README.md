@@ -128,21 +128,9 @@ dfx canister call token_transfer_backend bulkTransfer "(record {
 
 ## Project Media
 
-- **Discord Community for Organization and Information Purposes**
+- **Running Local Cannister**
 
-- Discord Announcements Channel:
-![image](https://github.com/aegiscapital/icp-hackaton/assets/104056726/569efafd-9338-4c6b-b237-53d75dfa9cd5)
-
-- Discord Dev News Channel:
-![image](https://github.com/aegiscapital/icp-hackaton/assets/104056726/d72a3a40-83b2-440f-8381-f0314ae9a18d)
-
-- **Twitter (X) Account to Spread the Word**
-
-![image](https://github.com/aegiscapital/icp-hackaton/assets/104056726/ed13d59f-c102-4d54-867e-5317dd6d9a91)
-
-- **Documentation Page**
-
-![image](https://github.com/aegiscapital/icp-hackaton/assets/104056726/2b4344cc-2ca1-4cea-8cb3-85ec39aa344a)
+![image](https://github.com/user-attachments/assets/65cfff03-8eea-46bf-92f4-a553d8be793a)
 
 # **Website Demo Presentation**
 
