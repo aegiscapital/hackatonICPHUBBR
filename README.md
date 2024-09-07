@@ -28,8 +28,7 @@ Nossa principal visão é unir a segurança e confiabilidade da rede do Bitcoin 
 
 - Passo 3: Registro do nosso próprio cannister para manipulação e distribuição das Runas/Tokens na rede ICP.
 
-#### A principal ferramenta para criar, implementar e gerenciar os dapps para a plataforma da IC é a dfx (DFINITY command-line execution environment), que está contida na IC SDK (software
-development kit). 
+A principal ferramenta para criar, implementar e gerenciar os dapps para a plataforma da IC é a dfx (DFINITY command-line execution environment), que está contida na IC SDK (software development kit). 
 
 Essa ferramenta não tem suporte nativo no Windows, portanto todo o desenvolvimento desse projeto foi centrado em uma configuração a partir de um ambiente WSL (Windows Subsystem for Linux).
 
