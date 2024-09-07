@@ -35,12 +35,16 @@ Essa ferramenta não tem suporte nativo no Windows, portanto todo o desenvolvime
 
 Esse Canister possibilita uma distribuição automatizada das Runas armazenadas, bem como um controle de acesso para quem pode fazer essa distribuição.
 
-Para o exemplo, vamos considerar que 5 pessoas ganharam uma competição de arte para a ICP Hub BR e estão elegíveis para receber uma premiação em Runas:
+#### Para o exemplo, vamos considerar que 5 pessoas ganharam uma competição de arte para a ICP Hub BR e estão elegíveis para receber uma premiação em Runas:
 
 A – Aline – 16 Runas – xfznx-sgxv2-ty5tf-niw3v-6u34s-suz5w-xza2d-kwpwo-qq7fc-ug4oc-oqe
+
 B – Bob – 8 Runas – 6fp7j-oxpeg-gwgjl-zvjsj-kmne4-wq6cw-wnh5h-tbfii-q2nvs-gwpvm-2ae
+
 C – Carlos – 4 Runas – z3fut-ezcmm-f3qfz-4hxqz-7fmp7-bu74a-js3td-g5wr5-2ncqj-u5mwq-vqe
+
 D – Denise – 2 Runas – pykrr-ecxve-bksoh-oipzw-hdpoj-djhdp-brkgd-h7h54-oincy-lu4wn-zqe
+
 E – Edward – 1 Runa – mgc4g-k3pmg-wtkha-omup5-y7eom-ip4b5-lvjdx-qu5wr-nl6wm-vbhls-kae
 
 Testando Localmente:
