@@ -47,7 +47,7 @@ D – Denise – 2 Runas – pykrr-ecxve-bksoh-oipzw-hdpoj-djhdp-brkgd-h7h54-oin
 
 E – Edward – 1 Runa – mgc4g-k3pmg-wtkha-omup5-y7eom-ip4b5-lvjdx-qu5wr-nl6wm-vbhls-kae
 
-Testando Localmente:
+#### Testando Localmente:
 
 Primeiramente vamos fazer o deploy das Runas como um ICRC-1 localmente:
 
@@ -101,7 +101,9 @@ dfx canister call icrc1_ledger_canister icrc1_transfer "(record {
 })"
 
 Com o Setup finalizado, podemos fazer o uso do Canister utilizando nosso Principal “Default”.
+
 Vamos fazer a distribuição das Runas da Denise e do Edward.
+
 Como proteção para eventuais erros, o Canister requer que a lista de Accounts e a lista de Amounts
 possua o mesmo tamanho.
 
