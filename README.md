@@ -61,7 +61,7 @@ dfx identity use default
 export DEFAULT=$(dfx identity get-principal)
 
 #### E então podemos dar o deploy no Canister. Nessa configuração, serão mintadas 100 Runas para o
-Principal “Default” e a taxa de transferência será inicializada em 0,0001 tokens.
+#### Principal “Default” e a taxa de transferência será inicializada em 0,0001 tokens.
 
 dfx deploy icrc1_ledger_canister --argument "(variant { Init =
 record {
@@ -89,7 +89,7 @@ dfx deploy token_transfer_backend
 dfx canister call token_transfer_backend transferPrivilege "(principal \"$(dfx identity getprincipal)\")"
 
 #### E finalmente podemos finalizar o nosso Setup Local transferindo Runas para o Canister. 
-Nesse exemplo, vamos enviar 10 Runas:
+#### Nesse exemplo, vamos enviar 10 Runas:
 
 dfx canister call icrc1_ledger_canister icrc1_transfer "(record {
  to = record {
@@ -99,11 +99,8 @@ dfx canister call icrc1_ledger_canister icrc1_transfer "(record {
 })"
 
 #### Com o Setup finalizado, podemos fazer o uso do Canister utilizando nosso Principal “Default”.
-
 #### Vamos fazer a distribuição das Runas da Denise e do Edward.
-
-#### Como proteção para eventuais erros, o Canister requer que a lista de Accounts e a lista de Amounts
-possua o mesmo tamanho.
+#### Como proteção para eventuais erros, o Canister requer que a lista de Accounts e a lista de Amounts possua o mesmo tamanho.
 
 dfx canister call token_transfer_backend bulkTransfer "(record {
  amounts = vec {
