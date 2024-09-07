@@ -28,7 +28,7 @@ Nossa principal visão é unir a segurança e confiabilidade da rede do Bitcoin 
 
 - Passo 3: Registro do nosso próprio cannister para manipulação e distribuição das Runas/Tokens na rede ICP.
 
-A principal ferramenta para criar, implementar e gerenciar os dapps para a plataforma da IC é a dfx (DFINITY command-line execution environment), que está contida na IC SDK (software
+#### A principal ferramenta para criar, implementar e gerenciar os dapps para a plataforma da IC é a dfx (DFINITY command-line execution environment), que está contida na IC SDK (software
 development kit). 
 
 Essa ferramenta não tem suporte nativo no Windows, portanto todo o desenvolvimento desse projeto foi centrado em uma configuração a partir de um ambiente WSL (Windows Subsystem for Linux).
@@ -98,11 +98,11 @@ dfx canister call icrc1_ledger_canister icrc1_transfer "(record {
  amount = 1_000_000_000;
 })"
 
-Com o Setup finalizado, podemos fazer o uso do Canister utilizando nosso Principal “Default”.
+#### Com o Setup finalizado, podemos fazer o uso do Canister utilizando nosso Principal “Default”.
 
-Vamos fazer a distribuição das Runas da Denise e do Edward.
+#### Vamos fazer a distribuição das Runas da Denise e do Edward.
 
-Como proteção para eventuais erros, o Canister requer que a lista de Accounts e a lista de Amounts
+#### Como proteção para eventuais erros, o Canister requer que a lista de Accounts e a lista de Amounts
 possua o mesmo tamanho.
 
 dfx canister call token_transfer_backend bulkTransfer "(record {
