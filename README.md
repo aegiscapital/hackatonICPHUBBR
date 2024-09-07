@@ -49,9 +49,9 @@ E – Edward – 1 Runa – mgc4g-k3pmg-wtkha-omup5-y7eom-ip4b5-lvjdx-qu5wr-nl6w
 
 #### Testando Localmente:
 
-Primeiramente vamos fazer o deploy das Runas como um ICRC-1 localmente:
+#### Primeiramente vamos fazer o deploy das Runas como um ICRC-1 localmente:
 
-Para isso, primeiro definimos um “Minter” e uma conta padrão “Default” – para onde as Runas serão mintadas:
+#### Para isso, primeiro definimos um “Minter” e uma conta padrão “Default” – para onde as Runas serão mintadas:
 
 dfx identity new minter
 dfx identity use minter
@@ -60,7 +60,7 @@ dfx identity new default
 dfx identity use default
 export DEFAULT=$(dfx identity get-principal)
 
-E então podemos dar o deploy no Canister. Nessa configuração, serão mintadas 100 Runas para o
+#### E então podemos dar o deploy no Canister. Nessa configuração, serão mintadas 100 Runas para o
 Principal “Default” e a taxa de transferência será inicializada em 0,0001 tokens.
 
 dfx deploy icrc1_ledger_canister --argument "(variant { Init =
@@ -80,17 +80,15 @@ record {
  }
 })"
 
-Com as Runas mintadas, vamos fazer o deploy do nosso Canister:
+#### Com as Runas mintadas, vamos fazer o deploy do nosso Canister:
 
 dfx deploy token_transfer_backend
 
-E vamos chamar a função “transferPrivilege” passando de argumento o Principal que queremos
-utilizar como “Owner”, que fará a distribuição das Runas. Nesse caso será o próprio Principal que
-estamos usando (“Default”):
+#### E vamos chamar a função “transferPrivilege” passando de argumento o Principal que queremos utilizar como “Owner”, que fará a distribuição das Runas. Nesse caso será o próprio Principal que estamos usando (“Default”):
 
 dfx canister call token_transfer_backend transferPrivilege "(principal \"$(dfx identity getprincipal)\")"
 
-E finalmente podemos finalizar o nosso Setup Local transferindo Runas para o Canister. 
+#### E finalmente podemos finalizar o nosso Setup Local transferindo Runas para o Canister. 
 Nesse exemplo, vamos enviar 10 Runas:
 
 dfx canister call icrc1_ledger_canister icrc1_transfer "(record {
