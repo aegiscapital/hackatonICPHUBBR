@@ -13,11 +13,11 @@ A maioria das ferramentas hoje existentes para recompensar comunidades por engaj
 
 ## A Solução
 
-Nossa solução permite a utilização de ativos onchain para recompensar a comunidade da ICP HUB BR em eventos, torneios e sorteios promovidos pelo HUB, de maneira flexível, permitindo uma integração tecnológica e de cunho educacional, tanto em relação a desenvolvimento na rede do Bitcoin quanto à rede ICP.
+Nossa solução permite a utilização de ativos onchain para recompensar a comunidade da ICP HUB BR em eventos, torneios e sorteios promovidos pelo HUB, de maneira flexível, permitindo uma integração tecnológica e de cunho educacional, tanto em relação a desenvolvimento na rede do Bitcoin quanto à rede ICP. Nosso projeto se utiliza de um padrão de "tokens" fungíveis extremamente inovador e revolucionário na rede do Bitcoin, as Runas, que foram lançadas em 20/04/2024 (Halving) graças a implementação do protocolo Ordinals, que traz a possibilidade de registrar uma quantidade muito maior de dados nos Satoshis (menor fração de 1 Bitcoin), como textos, fotos, vídeos e tokens. A partir da inscrição dessas runas, utilizamos a infraestrutura da Omnity Network para fazer uma ponte e representar esses ativos na rede da ICP, onde podem ser manipulados no cannister do nosso projeto, de forma muito mais barata e escalável graças à estrutura da rede ICP.
 
 ## Nossa Visão
 
-Nossa principal visão é unir a segurança e confiabilidade da rede do Bitcoin com a escalabilidade e programabilidade da rede ICP. Com isso, permitimos ao HUB ICP BR uma forma única e exclusiva de recompensar os membros de sua comunidade. Nossa implementação permite o envio em massa dessas recompensas onchain para os membros da comunidade, além de permitir a programabilidade de outras ferramentas como bots de Discord e contratos automatizados para distribuição desses ativos.
+Nossa principal visão é unir a segurança e confiabilidade da rede do Bitcoin com a escalabilidade e programabilidade da rede ICP. Com isso, permitimos ao HUB ICP BR uma forma única, exclusiva e valiosa de recompensar os membros de sua comunidade. Nossa implementação permite o envio em massa dessas recompensas onchain para os membros da comunidade, além de permitir a programabilidade de outras ferramentas como bots de Discord e contratos automatizados para distribuição desses ativos.
 
 ## Como Fazemos 
 
