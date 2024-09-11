@@ -35,7 +35,7 @@ A principal ferramenta para criar, implementar e gerenciar os dapps para a plata
 
 Essa ferramenta não tem suporte nativo no Windows, portanto todo o desenvolvimento desse projeto foi centrado em uma configuração a partir de um ambiente WSL (Windows Subsystem for Linux).
 
-Esse Canister possibilita uma distribuição automatizada das Runas armazenadas, bem como um controle de acesso para quem pode fazer essa distribuição.
+Esse Canister possibilita uma distribuição automatizada das Runas armazenadas, bem como um controle de acesso para quem pode fazer essa distribuição (ownership).
 
 #### Para o exemplo, vamos considerar que 5 pessoas ganharam uma competição de arte para a ICP Hub BR e estão elegíveis para receber uma premiação em Runas:
 
