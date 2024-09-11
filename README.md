@@ -1,5 +1,5 @@
 
-# Repositório Público de Projeto para o Hackaton ICP HUB BR
+# Repositório Público de Projeto para o Hackaton ICP HUB BR - ICP Runes Control Panel
 
 ### Atenção: Esse repositório foi criado para a participação no Hackaton do HUB ICP BR e pode não conter todas as informações de futuras implementações do projeto.
 
