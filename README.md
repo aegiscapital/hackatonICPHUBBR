@@ -6,7 +6,7 @@
 
 ## Resumo
 
-Esse projeto propõe-se a construir uma aplicação real de uso imediato para auxiliar na propagação do conhecimento e visibilidade da ICP Hub BR, bem como incentivar outros projetos com esse mesmo objetivo.
+Esse projeto propõe-se a construir uma aplicação real de uso imediato para recompensar os membros da comunidade ICP HUB Brasil, auxiliar na propagação do conhecimento e visibilidade do HUB e incentivar outros projetos como comunidades e DAOs com esse mesmo objetivo.
 
 ## O Problema
 
