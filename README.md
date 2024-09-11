@@ -27,7 +27,7 @@ Nossa principal visão é unir a segurança e confiabilidade da rede do Bitcoin 
 - Passo 1: Inscrição dos ativos do protocolo Runes na rede L1 do Bitcoin, representando a ICP HUB BR na maior e mais segura blockchain existente.
 
 - Passo 2: Registro das Runas na rede da ICP utilizando a ferramena de bridge da infraestrutura Omnity Network - https://bridge.omnity.network/runes 
-(verificável via cannister criado pela própria Omnity Network em um processo de travamento de ativos na camada 1 do Bitcoin e emissão na rede ICP)
+(verificável via cannister criado pela própria Omnity Network em um processo de travamento de ativos na camada 1 do Bitcoin e emissão na rede ICP com o padrão IRCR-1)
 
 - Passo 3: Registro do nosso próprio cannister para manipulação e distribuição das Runas/Tokens na rede ICP.
 
