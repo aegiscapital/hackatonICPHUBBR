@@ -14,7 +14,9 @@ A maioria das ferramentas hoje existentes para recompensar comunidades por engaj
 
 ## A Solução
 
-Nossa solução permite a utilização de ativos onchain para recompensar a comunidade da ICP HUB BR em eventos, torneios e sorteios promovidos pelo HUB, de maneira flexível, permitindo uma integração tecnológica e de cunho educacional, tanto em relação a desenvolvimento na rede do Bitcoin quanto à rede ICP. Nosso projeto se utiliza de um padrão de "tokens" fungíveis extremamente inovador e revolucionário na rede do Bitcoin, as Runas, que foram lançadas em 20/04/2024 (Halving) graças a implementação do protocolo Ordinals, que traz a possibilidade de registrar uma quantidade muito maior de dados nos Satoshis (menor fração de 1 Bitcoin), como textos, fotos, vídeos e tokens. A partir da inscrição dessas runas, utilizamos a infraestrutura da Omnity Network para fazer uma ponte e representar esses ativos na rede da ICP, onde podem ser manipulados no cannister do nosso projeto, de forma muito mais barata e escalável graças à estrutura da rede ICP.
+Nossa solução permite a utilização de ativos onchain para recompensar a comunidade da ICP HUB BR em eventos, torneios e sorteios promovidos pelo HUB, de maneira flexível, permitindo uma integração tecnológica e de cunho educacional, tanto em relação a desenvolvimento na rede do Bitcoin quanto na rede ICP. 
+Nosso projeto se utiliza de um padrão de "tokens" fungíveis extremamente inovador e revolucionário na rede do Bitcoin, as Runas, que foram lançadas em 20/04/2024 (Halving) graças a implementação do protocolo Ordinals, que traz a possibilidade de registrar uma quantidade muito maior de dados nos Satoshis (menor fração de 1 Bitcoin), como textos, fotos, vídeos e tokens. 
+A partir da inscrição dessas runas, utilizamos a infraestrutura da Omnity Network para fazer uma ponte e representar esses ativos na rede da ICP, onde podem ser manipulados e enviados para vários usuários simultaneamente pelo canister do nosso projeto, de forma muito mais barata e escalável graças à estrutura da rede ICP.
 
 ## Nossa Visão
 
